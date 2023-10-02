@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    margin: 20px 15% 15%;
+}
+
+
+#contenitore-principale{
+    background-color: rgba(0,0,0,0.5);
+    margin: auto;
+    border-radius: 16px;
+    padding: 10px 7% 7%;
+
+}
+
+header{
+    text-align: center;
+}
+
+#logo-immagine{
+    width: 30%;
+    height: 30%;
+    margin-top: 50px;
+}
+
+/* Titolo header*/
+header>h1{  
+    color: rgb(0, 221, 0);
+    font-size: 30px;
+    padding: 5px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav>div{
+    background-color: rgb(0, 221, 0);
+    padding: 10px;
+}
+
+/* Inzio main*/
+.box-main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Scritte importanti vicino al Checkbox*/
+main h2{
+    display: inline-block;
+    font-size: 20px;
+}
+
+/*Colore tutte le scritte main*/
+.colore-main{
+    color: white;
+}
+
+
+.barra-caricamento{
+    height: 30px;
+    border-radius: 5px;
+}
+
+.box1{
+    background-color: orange;
+    width: 30%;
+}
+
+.box2{
+    background-color: green;
+    width: 60%;
+}
+
+.box3{
+    background-color: brown;
+    width: 15%;
+}
